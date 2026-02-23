@@ -1,0 +1,61 @@
+{
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "name": "Meseret Mezgebu",
+        "title": "Full-Stack Developer | React & Node.js Enthusiast",
+        "location": "Based in Ethiopia 🇪🇹",
+        "viewProjects": "View Projects",
+        "downloadCV": "Download CV",
+        "contactMe": "Contact Me"
+    },
+    "about": {
+        "title": "About Me",
+        "bio": "I am a third-year Software Engineering student at Wollo University with a passion for building web applications and solving real-world problems using technology. Skilled in React and Node.js, I aim to become a proficient full-stack developer.",
+        "education": "Education",
+        "educationContent": "Wollo University",
+        "careerGoal": "Career Goal",
+        "careerGoalContent": "Full-Stack Developer",
+        "techPassion": "Tech Passion",
+        "techPassionContent": "React & Node.js",
+        "currentFocus": "Current Focus",
+        "currentFocusContent": "Learning DSA & APIs"
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "projects": {
+        "title": "Projects",
+        "accomplishments": {
+            "restApis": "Built full-stack REST APIs",
+            "payments": "Integrated payment systems (Chapa, Telebirr)",
+            "backend": "Deployed backend on Render",
+            "frontend": "Hosted frontend on Vercel"
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "experience": "Experience",
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "Email",
+        "messagePlaceholder": "Message",
+        "sendButton": "Send Message",
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "Failed to send message. Please try again."
+    },
+    "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "messageRequired": "Message is required",
+        "messageTooShort": "Message must be at least 10 characters"
+    },
+    "projectCard": {
+        "liveDemo": "Live Demo",
+        "githubRepo": "GitHub Repo"
+    }
+}
