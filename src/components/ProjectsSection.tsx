@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { FaCheckCircle } from 'react-icons/fa';
-import { useLanguage } from '../contexts/LanguageContext';
 import type { ProjectsInfo } from '../types';
 
 interface ProjectsSectionProps {
@@ -29,8 +28,6 @@ const itemVariants = {
 };
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {
-    const { t } = useLanguage();
-
     return (
         <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 section-darker">
             <div className="max-w-7xl mx-auto">

@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { useLanguage } from '../contexts/LanguageContext';
 import { ProjectCard } from './ProjectCard';
 import type { SkillsInfo } from '../types';
 
@@ -48,8 +47,6 @@ const itemVariants = {
 };
 
 export function SkillsSection({ skills }: SkillsSectionProps) {
-    const { t } = useLanguage();
-
     return (
         <>
             {/* My Skills Section */}
@@ -73,7 +70,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
                         viewport={{ once: true }}
                         className="skills-grid"
                     >
-                        {skillCategories.map((category, index) => (
+                        {skillCategories.map((category) => (
                             <motion.div
                                 key={category.title}
                                 variants={itemVariants}
@@ -121,7 +118,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
                         viewport={{ once: true }}
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                     >
-                        {skills.projectShowcases.map((project, index) => (
+                        {skills.projectShowcases.map((project) => (
                             <motion.div key={project.id} variants={itemVariants}>
                                 <ProjectCard project={project} />
                             </motion.div>

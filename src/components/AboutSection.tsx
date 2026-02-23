@@ -65,7 +65,7 @@ export function AboutSection({ about }: AboutSectionProps) {
                     viewport={{ once: true }}
                     className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
                 >
-                    {about.infoCards.map((card, index) => (
+                    {about.infoCards.map((card) => (
                         <motion.div key={card.id} variants={itemVariants}>
                             <InfoCard card={card} />
                         </motion.div>

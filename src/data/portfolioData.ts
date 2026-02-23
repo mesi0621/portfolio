@@ -44,7 +44,7 @@ export const portfolioData: PortfolioData = {
                 title: 'E-Commerce Website',
                 description: 'Full-stack e-commerce platform with payment integration',
                 imageUrl: '/images/ecommerce.png',
-                techStack: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+                techStack: ['React', 'Node.js', 'MongoDB', 'express'],
                 liveDemoUrl: 'https://modoo-ecomerce.vercel.app/',
                 githubUrl: 'https://github.com/mesi0621/modo-ecommerce',
             },

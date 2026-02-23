@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
-import { useLanguage } from '../contexts/LanguageContext';
 import type { ProjectCard as ProjectCardType } from '../types';
 
 interface ProjectCardProps {
@@ -8,8 +7,6 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
-    const { t } = useLanguage();
-
     const handleLiveDemoClick = () => {
         window.open(project.liveDemoUrl, '_blank', 'noopener,noreferrer');
     };
